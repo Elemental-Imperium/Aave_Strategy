@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@server/*": ["server/*"],
+      "@types/*": ["src/types/*", "server/types/*"],
+      "@config/*": ["src/config/*", "server/config/*"],
+      "@utils/*": ["src/utils/*", "server/utils/*"]
+    }
+  }
+} 

@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:seed": "node prisma/seed.js",
+    "db:init": "./scripts/init-db.sh",
+    "db:reset": "prisma migrate reset",
+    "db:studio": "prisma studio"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.10.0",
+    // ... other dependencies
+  },
+  "devDependencies": {
+    "prisma": "^5.10.0",
+    // ... other dev dependencies
+  }
+} 

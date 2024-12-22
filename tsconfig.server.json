@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist/server",
+    "target": "ES2022",
+    "isolatedModules": false,
+    "noEmit": false
+  },
+  "include": ["server/**/*", "prisma/**/*"],
+  "exclude": ["node_modules", "src/**/*"]
+} 
